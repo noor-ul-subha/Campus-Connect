@@ -31,9 +31,8 @@ Campus Connect is a student portal designed to help students access university u
 
 ## Getting Started
 
-1. Download or clone the repository.
-2. Open the project folder in VS Code.
-3. Open `login.html` in your browser to start.
+1. Open the project folder in VS Code.
+2. Open `login.html` in your browser to start(in open live server).
 
 ## Project Status
 
