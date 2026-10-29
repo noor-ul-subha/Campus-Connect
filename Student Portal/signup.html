@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ice">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Create account | Campus Connect</title><link rel="stylesheet" href="css/style.css"><script src="js/auth.js" defer></script></head>
+<body class="auth-page">
+  <a class="auth-back" href="index.html">← Back to portal</a>
+  <main class="auth-card signup-card">
+    <a class="brand auth-brand" href="index.html"><span class="brand-mark">CC</span><span><strong>Campus</strong><small>CONNECT</small></span></a>
+    <p class="eyebrow">JOIN YOUR CAMPUS</p><h1>Create your<br><span>student account.</span></h1><p class="muted">Set up your profile to explore the Campus Connect experience.</p>
+    <form id="authForm" class="auth-form">
+      <label for="fullName">Full name</label><input id="fullName" type="text" placeholder="Enter your full name" required>
+      <label for="email">University email</label><input id="email" type="email" placeholder="you@university.edu" required>
+      <label for="department">Department</label><select id="department" required><option value="">Select department</option><option>Software Engineering</option><option>Computer Science</option><option>Electrical Engineering</option><option>Business Administration</option><option>Other</option></select>
+      <label for="password">Create password</label><input id="password" type="password" placeholder="At least 6 characters" required minlength="6">
+      <button class="primary-button full-button" type="submit">Create account <span>→</span></button>
+    </form>
+    <p class="auth-switch">Already have an account? <a href="login.html">Sign in</a></p>
+    <p class="auth-disclaimer">Prototype only: registration is not saved to a server.</p>
+  </main>
+</body></html>

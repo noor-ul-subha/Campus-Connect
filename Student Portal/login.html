@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ice">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sign in | Campus Connect</title><link rel="stylesheet" href="css/style.css"><script src="js/auth.js" defer></script></head>
+<body class="auth-page">
+  <a class="auth-back" href="login.html">Campus Connect</a>
+  <main class="auth-card">
+    <a class="brand auth-brand" href="index.html"><span class="brand-mark">CC</span><span><strong>Campus</strong><small>CONNECT</small></span></a>
+    <p class="eyebrow">WELCOME BACK</p><h1>Sign in to your<br><span>student space.</span></h1><p class="muted">Access campus updates, events and learning resources.</p>
+    <form id="authForm" class="auth-form">
+      <label for="username">Username</label><input id="username" name="username" type="text" placeholder="Enter your username" autocomplete="username" required>
+      <label for="password">Password</label><input id="password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required>
+      <div class="auth-row"><label class="remember"><input type="checkbox"> Remember me</label><a href="#" id="forgotLink">Forgot password?</a></div>
+      <button class="primary-button full-button" type="submit">Sign in <span>→</span></button>
+    </form>
+    <p id="loginError" class="login-error" role="alert" hidden>Incorrect username or password. Please try again.</p>
+    <p class="auth-switch">Campus Connect · Student Portal</p>
+  </main>
+</body></html>
